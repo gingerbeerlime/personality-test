@@ -10,7 +10,6 @@
     border-radius: 40px;
     margin-top: 100px;
     padding: 30px 100px;
-    font-family: 'Noto Sans KR', sans-serif;
     font-size: 23px;
     margin-bottom: 50px;
     
@@ -26,7 +25,7 @@
     padding: 20px 0;
     font-size: 18px;
 }
-.answerList:hover, .answer:focus {
+.answerList:hover, .answerList:focus {
     background-color: darkslategray;
     color: whitesmoke;
 }
@@ -40,5 +39,12 @@
 .statusBar {
     height: 100%;
     border-radius: 20px;
-    background-color: lightseagreen;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#98d3d3+0,71c4c2+43,20b2aa+100 */
+    background: #98d3d3; /* Old browsers */
+    background: -moz-linear-gradient(left,  #98d3d3 0%, #71c4c2 43%, #20b2aa 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #98d3d3 0%,#71c4c2 43%,#20b2aa 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #98d3d3 0%,#71c4c2 43%,#20b2aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98d3d3', endColorstr='#20b2aa',GradientType=1 ); /* IE6-9 */
+
+
 }
