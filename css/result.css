@@ -6,7 +6,13 @@
     border-radius: 30px;
     box-shadow: 0 0 6px #999;
 }
-
+#shareResult {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 6px #999; 
+}
 .ttl {
     font-size: 25px;
     color: black;
@@ -25,8 +31,20 @@
     border: 0px;
     border-radius: 15px;
 }
+.gohome {
+    color: white;
+    background-color: pink;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 15px;
+}
 .kakao:hover, .kakao:focus {
     background-color: whitesmoke;
     color: #FEE500;
+    transition: 0.2s all ease;
+}
+.gohome:hover, .gohome:focus {
+    background-color: whitesmoke;
+    color: pink;
     transition: 0.2s all ease;
 }
