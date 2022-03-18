@@ -33,7 +33,7 @@
 }
 .gohome {
     color: white;
-    background-color: pink;
+    background-color: #DC9172;
     font-size: 20px;
     border: 0px;
     border-radius: 15px;
@@ -45,6 +45,6 @@
 }
 .gohome:hover, .gohome:focus {
     background-color: whitesmoke;
-    color: pink;
+    color: #DC9172;
     transition: 0.2s all ease;
 }
